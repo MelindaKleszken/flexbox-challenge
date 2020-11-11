@@ -1,0 +1,49 @@
+.main {
+  background-color: lightblue;
+  margin: 10px;
+}
+
+.top {
+  width: 50%;
+  background-color: lightgreen;
+  margin: 5px;
+  height: 300px;
+}
+
+.left-box {
+  background-color: lightpink;
+  height: 300px;
+  width: 50%;
+  margin: 5px;
+}
+
+.right-box {
+  height: 300px;
+
+  width: 50%;
+  margin: 5px;
+
+  background-color: lightpink;
+}
+
+.left-inside {
+  width: 100%;
+}
+
+.left-inside > h1 {
+  margin: 20px;
+}
+
+.left-box > h1,
+.right-box > h1 {
+  margin: 20px;
+}
+
+/* Uncomment below to highlight where the containers are */
+/* .main,
+.top,
+.left-box,
+.right-box,
+.left-inside {
+  border: 2px solid blue;
+} */
