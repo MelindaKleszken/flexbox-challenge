@@ -1,6 +1,10 @@
 .main {
   background-color: lightblue;
   margin: 10px;
+  direction: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
 
 .top {
@@ -19,7 +23,6 @@
 
 .right-box {
   height: 300px;
-
   width: 50%;
   margin: 5px;
 
